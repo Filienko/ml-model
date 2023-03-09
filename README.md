@@ -19,9 +19,9 @@ Setup a folder for the CNN. Then copy the contents of GenderImageClassifer into 
 
 Ex.
 - image_postchange
-  - male
+  - 0
     - (All Your Male Example Images)
-  - female
+  - 1
     - (All Your Female Example Images)
 
 Change the path to the training data (ex. "image_postchange/") in CatergoricalGenderClassiferCNN.py and optionally edit the settings.
