@@ -18,11 +18,11 @@ Training a Model:
 Setup a folder for the CNN. Then copy the contents of GenderImageClassifer into this folder. Create a folder that will hold your training set. This folder must have subfolders that are labeled with the classifications.
 
 Ex.
-image_postchange
+- image_postchange
   - male
-    - (All Your Male Example Images)
+   - (All Your Male Example Images)
   - female
-    - (All Your Female Example Images)
+   - (All Your Female Example Images)
 
 Change the path to the training data (ex. "image_postchange/") in CatergoricalGenderClassiferCNN.py and optionally edit the settings.
 Run CatergoricalGenderClassiferCNN.py with Python.
