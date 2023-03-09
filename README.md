@@ -10,3 +10,24 @@ BERT with simple NN
 Ensemble
 SVM (low accuracy)
 
+# image
+Requires Tensorflow, Keras, Pillow, and Numpy in a Python Environment.
+The code provided in GenderImageClassifer is a Convolutional Neural Network that is intended to classify gender.
+
+Training a Model:
+Setup a folder for the CNN. Then copy the contents of GenderImageClassifer into this folder. Create a folder that will hold your training set. This folder must have subfolders that are labeled with the classifications.
+
+Ex.
+image_postchange
+  - male
+    - (All Your Male Example Images)
+  - female
+    - (All Your Female Example Images)
+
+Change the path to the training data (ex. "image_postchange/") in CatergoricalGenderClassiferCNN.py and optionally edit the settings.
+Run CatergoricalGenderClassiferCNN.py with Python.
+
+Making Predictions:
+Put an image in the same folder as ModelTestCategoricalClassifer.py and make sure that the model that was trained is present there as well (Named "image_model" by default).
+Edit the path to the image in ModelTestCategoricalClassifer.py
+Run ModelTestCategoricalClassifer.py with Python.
