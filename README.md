@@ -10,14 +10,19 @@ BERT with simple NN
 Ensemble
 SVM (low accuracy)
 Brackets for gender:
-male = 0
-female = 1
+ - male = 0
+
+ - female = 1
 
 Brackets for age:
-xx-24 = 0
-25-34 = 1
-35-49 = 2
-50-xx = 3
+
+ - xx-24 = 0
+
+ - 25-34 = 1
+
+ - 35-49 = 2
+
+ - 50-xx = 3
 
 # image
 Requires Tensorflow, Keras, Pillow, and Numpy in a Python Environment.
