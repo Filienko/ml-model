@@ -46,3 +46,11 @@ Making Predictions:
 Put an image in the same folder as ModelTestCategoricalClassifer.py and make sure that the model that was trained is present there as well (Named "image_model" by default).
 Edit the path to the image in ModelTestCategoricalClassifer.py
 Run ModelTestCategoricalClassifer.py with Python.
+
+# Relations
+The code in files: "Relations_KNN", "Relations_LogisticRegression", and "Relations_SoftmaxRegression" were used for internal testing 
+and training only and the code would not be runnable unless the correct file paths were added in the code where necessary, pointing to 
+appropriately formatted data. Parts of the code were also commented and uncommented depending on which attribute was being targeted at the
+time. If you wish to run the code, comments have been left indicating what file paths should be passed.
+
+"Relations_LogisticRegression" and "Relations_SoftmaxRegression" both require numpy and output their models as a text file.
