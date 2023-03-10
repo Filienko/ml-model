@@ -9,6 +9,7 @@ Logres over text with preprocessing and LIWC
 BERT with simple NN
 Ensemble
 SVM (low accuracy)
+
 Brackets for gender:
  - male = 0
 
