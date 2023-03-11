@@ -2,8 +2,21 @@
 Machine Learning Model for predicting age, gender, and personality of the user
 
 # text
-Import numpy, keras, tensrflow, nltk(optional), and set up python jupyter notebooks with traditional conda or pip install, in order to emulate my environment. You can also utilize Google Colab, it may be more convinient. All of the code performing above the baseline is within the working_model folder, all of the other code is a draft that could be improved on or is not good for the provided form of text data, such as doc2vec, which did not perform well on the given textual dataset. To run, follow the format:
-- [input directory with test dataset] - [output directory]
+Import numpy, keras, tensrflow, nltk(optional), and set up python jupyter notebooks 
+with traditional conda or pip install, in order to emulate my environment. You can also 
+utilize Google Colab, it may be more convinient. All of the code performing above the 
+baseline is within the working_model folder, all of the other code is a draft that could be 
+improved on or is not good for the provided form of text data, such as doc2vec, which 
+did not perform well on the given textual dataset. To run in the linux command line with 
+proper arguments, follow the format:
+• start_bash [input directory with test dataset] [output directory] 
+Where the code containing the model, referenced by start_bash, can be modeled after 
+our start.by python file in ensemble and contains proper calls to the machine learning
+algorithms running the prediction algorithm from the already trained machine learning 
+models.
+In order to train a text-based model, download and modify files located in main folder –
+src.
+
 Working Models for gender:
 Logres over text with preprocessing (76%)
 BERT with simple NN (69%)
