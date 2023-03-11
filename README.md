@@ -9,7 +9,9 @@ baseline is within the working_model folder, all of the other code is a draft th
 improved on or is not good for the provided form of text data, such as doc2vec, which 
 did not perform well on the given textual dataset. To run in the linux command line with 
 proper arguments, follow the format:
+
 • start_bash [input directory with test dataset] [output directory] 
+
 Where the code containing the model, referenced by start_bash, can be modeled after 
 our start.by python file in ensemble and contains proper calls to the machine learning
 algorithms running the prediction algorithm from the already trained machine learning 
